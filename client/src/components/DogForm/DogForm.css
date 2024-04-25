@@ -1,0 +1,55 @@
+/* 
+/* Form Styling */
+.form-box {
+    /* float: left; */
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    /* grid-column: 0;
+    grid-row: 1; */
+}
+
+.wrapper2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+  
+.form-box {
+    margin-bottom: 20px;
+}
+  
+.form-box label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 16px;
+}
+  
+.form-box input[name="name"],
+.form-box input[name="species"],
+.form-box input[name="age"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+  
+.form-box button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+  
+.form-box button:hover {
+    background-color: #0056b3;
+}
+  
