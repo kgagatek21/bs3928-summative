@@ -1,0 +1,28 @@
+GET http://localhost:8080/walkers-routes
+
+###
+
+POST http://localhost:8080/walkers-routes
+Content-Type: application/json
+
+{
+    "name": "Test React",
+    "email": "test@react.com",
+    "phone": "123-456-7890",
+    "age": "2"
+}
+
+
+###
+
+GET http://localhost:8080/dogs-routes
+
+###
+POST  http://localhost:8080/dogs-routes
+Content-Type: application/json
+
+{
+    "name": "New Dog",
+    "age": "5",
+    "species": "Jack Russel"
+}
