@@ -3,3 +3,4 @@ Uses MERN stack.
 The functionality include: - Way to submit details for a dog walker - Way to submit details for a dog that needs walking - Way to display all available dog walkers - Way to display all dogs
 
 Currently connected to Azure CosmosDB instance
+For hosting this Repo should be deployed to Azure Web App Services in form of a Docker Container.
